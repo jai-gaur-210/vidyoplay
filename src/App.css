@@ -128,3 +128,16 @@ i{
   font-size: 17px;
   font-weight: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .dabba2 {
+    flex-direction: column;
+  }
+
+  .metadata,
+  .dabba1,
+  .wave {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
